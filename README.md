@@ -7,6 +7,7 @@ PiNG12RAW is a simple utility to separate RG/GB Bayer color channels to individu
 PiNG12RAW can be made to work easily using the following set of commands:
 ```
 make
+mkdir results
 bin/DebayerImage.out
 ```
 After running these commands, one can see the debayered colored channels in `results` folder.
